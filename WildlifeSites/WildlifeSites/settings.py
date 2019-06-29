@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
     'wildlife_sites'
 ]
 
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'WildlifeSites.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.contrib.gis.db.backends.mysql',
         'OPTIONS': {
             'read_default_file': '/etc/mysql/wildlife.cnf',
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
