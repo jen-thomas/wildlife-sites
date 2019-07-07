@@ -4,10 +4,23 @@ from django.contrib.gis.admin.options import OSMGeoAdmin
 import wildlife_sites.models
 
 # Register your models here.
+
+class TaxonomyClassAdmin(admin.ModelAdmin):
+    list_display = ('class',)
+    ordering = ('class',)
+    search_fields = ('class',)
+
+
+class TaxonomyOrderAdmin(admin.ModelAdmin):
+    list_display = ('class', 'order')
+    ordering = ('class', 'order')
+    search_fields = ('class', 'order')
+
+
 class TaxonomyAdmin(admin.ModelAdmin):
-    list_display = ('latin_name', 'class', 'order')
-    ordering = ('latin_name', 'class', 'order')
-    search_fields = ('latin_name', 'class', 'order')
+    list_display = ('latin_name', 'order')
+    ordering = ('latin_name', 'order')
+    search_fields = ('latin_name', 'order')
 
 
 class SpeciesAdmin(admin.ModelAdmin):
@@ -70,6 +83,8 @@ class SiteVisitAdmin(admin.ModelAdmin):
     search_fields = ('site', 'species', 'time_of_year', 'source')
 
 
+admin.site.register(wildlife_sites.models.TaxonomyClass, TaxonomyClassAdmin)
+admin.site.register(wildlife_sites.models.TaxonomyOrder, TaxonomyOrderAdmin)
 admin.site.register(wildlife_sites.models.Taxonomy, TaxonomyAdmin)
 admin.site.register(wildlife_sites.models.Species, SpeciesAdmin)
 admin.site.register(wildlife_sites.models.Site, SiteAdmin)
