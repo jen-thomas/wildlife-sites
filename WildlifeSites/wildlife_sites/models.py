@@ -4,7 +4,7 @@ from django.contrib.gis.db import models
 
 
 class TaxonomyClass(models.Model):
-    taxclass = models.CharField(max_length=256, name='class', null=True, blank=True)
+    taxclass = models.CharField(max_length=256)
 
     def __str__(self):
         return "{}".format(self.taxclass)
@@ -12,7 +12,7 @@ class TaxonomyClass(models.Model):
 
 class TaxonomyOrder(models.Model):
     order = models.CharField(max_length=256)
-    taxclass = models.ForeignKey(TaxonomyClass, on_delete=models.PROTECT, name='class')
+    taxclass = models.ForeignKey(TaxonomyClass, on_delete=models.PROTECT)
 
     def __str__(self):
         return "{}".format(self.order)
@@ -20,7 +20,7 @@ class TaxonomyOrder(models.Model):
 
 class Taxonomy(models.Model):
     latin_name = models.CharField(max_length=255, unique=True)
-    order = models.OneToOneField(TaxonomyOrder, on_delete=models.PROTECT)
+    order = models.ForeignKey(TaxonomyOrder, on_delete=models.PROTECT)
 
     def __str__(self):
         return "{}".format(self.latin_name)

@@ -6,15 +6,15 @@ import wildlife_sites.models
 # Register your models here.
 
 class TaxonomyClassAdmin(admin.ModelAdmin):
-    list_display = ('class',)
-    ordering = ('class',)
-    search_fields = ('class',)
+    list_display = ('taxclass',)
+    ordering = ('taxclass',)
+    search_fields = ('taxclass',)
 
 
 class TaxonomyOrderAdmin(admin.ModelAdmin):
-    list_display = ('class', 'order')
-    ordering = ('class', 'order')
-    search_fields = ('class', 'order')
+    list_display = ('taxclass', 'order')
+    ordering = ('taxclass', 'order')
+    search_fields = ('taxclass', 'order')
 
 
 class TaxonomyAdmin(admin.ModelAdmin):

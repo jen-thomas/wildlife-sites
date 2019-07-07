@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f8cbd5-11ee-45a9-a633-3e45dee5e70e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wildlife_sites/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/migrations/0002_auto_20190706_1356.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/migrations/0003_auto_20190706_1406.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wildlife_sites/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/wildlife_sites/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -47,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wildlife_sites/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="288">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -113,8 +109,8 @@
         <option value="$PROJECT_DIR$/wildlife_sites/views.py" />
         <option value="$PROJECT_DIR$/WildlifeSites/urls.py" />
         <option value="$PROJECT_DIR$/WildlifeSites/settings.py" />
-        <option value="$PROJECT_DIR$/wildlife_sites/admin.py" />
         <option value="$PROJECT_DIR$/wildlife_sites/models.py" />
+        <option value="$PROJECT_DIR$/wildlife_sites/admin.py" />
       </list>
     </option>
   </component>
@@ -227,6 +223,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-1" width="1924" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.099574015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -321,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wildlife_sites/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="288">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -332,7 +329,7 @@
     <entry file="file://$PROJECT_DIR$/wildlife_sites/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
         </state>
       </provider>
     </entry>
