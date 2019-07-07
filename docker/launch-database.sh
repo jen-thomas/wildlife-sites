@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker-compose -f docker-compose.yml down
-docker-compose -f docker-compose.yml up
+docker-compose --project-name wildlife_sites -f docker-compose.yml down
+docker-compose --project-name wildlife_sites -f docker-compose.yml up

@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: wildlife_sites_root
-      MYSQL_USER: wildlife_sites_user
+      MYSQL_USER: wildlife_user
       MYSQL_PASSWORD: wildlife_sites_password
       MYSQL_DATABASE: wildlife_sites_db
     volumes:
