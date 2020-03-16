@@ -4,19 +4,19 @@ from django.contrib.gis.db import models
 
 
 class TaxonomyClass(models.Model):
-    taxclass = models.CharField(max_length=256)
+    taxclass = models.CharField(max_length=256, unique=True)
 
     def __str__(self):
         return "{}".format(self.taxclass)
 
 
 class TaxonomyOrder(models.Model):
-    order = models.CharField(max_length=256, unique=True)
+    order = models.CharField(max_length=255, unique=True)
     taxclass = models.ForeignKey(TaxonomyClass, on_delete=models.PROTECT)
 
     def __str__(self):
         return "{}".format(self.order)
-    
+
 
 class Taxonomy(models.Model):
     latin_name = models.CharField(max_length=255, unique=True)
@@ -27,7 +27,7 @@ class Taxonomy(models.Model):
 
 
 class Species(models.Model):
-    latin_name = models.OneToOneField(Taxonomy, on_delete=models.PROTECT)
+    latin_name = models.OneToOneField(Taxonomy, on_delete=models.PROTECT, unique=True)
     common_name_english = models.CharField(max_length=1024, null=True, blank=True)
     common_name_catalan = models.CharField(max_length=1024, null=True, blank=True)
     common_name_spanish = models.CharField(max_length=1024, null=True, blank=True)
