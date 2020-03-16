@@ -11,12 +11,12 @@ class TaxonomyClass(models.Model):
 
 
 class TaxonomyOrder(models.Model):
-    order = models.CharField(max_length=256)
+    order = models.CharField(max_length=256, unique=True)
     taxclass = models.ForeignKey(TaxonomyClass, on_delete=models.PROTECT)
 
     def __str__(self):
         return "{}".format(self.order)
-
+    
 
 class Taxonomy(models.Model):
     latin_name = models.CharField(max_length=255, unique=True)
