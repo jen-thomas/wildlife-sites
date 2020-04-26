@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8f8cbd5-11ee-45a9-a633-3e45dee5e70e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +33,12 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -64,6 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -89,8 +89,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561228198189</updated>
+      <workItem from="1587885854382" duration="320000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584288439494">
@@ -101,21 +105,29 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="697" y="284" width="519" height="482" key="EnvironmentVariablesDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1584287787105" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1584355191999">
+    <state x="739" y="270" width="428" height="509" key="FileChooserDialogImpl" timestamp="1584886235175">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1584355191999" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1584355191999">
+    <state x="739" y="270" width="428" height="509" key="FileChooserDialogImpl/0.0.1920.1054@0.0.1920.1054" timestamp="1584886235175" />
+    <state width="1895" height="280" key="GridCell.Tab.0.bottom" timestamp="1585086048432">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1584355191999" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1584355191998">
+    <state width="1895" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
+    <state width="1895" height="280" key="GridCell.Tab.0.center" timestamp="1585086048432">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1584355191998" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1584355191999">
+    <state width="1895" height="280" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
+    <state width="1895" height="280" key="GridCell.Tab.0.left" timestamp="1585086048432">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1584355191999" />
+    <state width="1895" height="280" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
+    <state width="1895" height="280" key="GridCell.Tab.0.right" timestamp="1585086048432">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1895" height="280" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
+    <state x="626" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1585162226464">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="626" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1585162226464" />
   </component>
 </project>
