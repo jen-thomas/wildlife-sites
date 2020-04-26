@@ -9,6 +9,9 @@ class TaxonomyClass(models.Model):
     def __str__(self):
         return "{}".format(self.taxclass)
 
+    class Meta:
+        verbose_name_plural = 'Taxonomy classes'
+
 
 class TaxonomyOrder(models.Model):
     order = models.CharField(max_length=255, unique=True)
@@ -25,6 +28,9 @@ class Taxonomy(models.Model):
     def __str__(self):
         return "{}".format(self.latin_name)
 
+    class Meta:
+        verbose_name_plural = 'Taxonomies'
+
 
 class Species(models.Model):
     latin_name = models.OneToOneField(Taxonomy, on_delete=models.PROTECT, unique=True)
@@ -34,6 +40,9 @@ class Species(models.Model):
 
     def __str__(self):
         return "{}".format(self.common_name_english)
+
+    class Meta:
+        verbose_name_plural = 'Species'
 
 
 class Site(models.Model):
@@ -106,6 +115,9 @@ class TimeOfYear(models.Model):
 
     def __str__(self):
         return "{}".format(self.month)
+
+    class Meta:
+        verbose_name_plural = 'Times of year'
 
 
 class SiteVisit(models.Model):
