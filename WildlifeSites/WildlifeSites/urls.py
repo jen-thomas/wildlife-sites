@@ -21,5 +21,5 @@ from wildlife_sites.views import Index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Index.as_view()),
-    path('', include('wildlife_sites.urls')),
+    path('species/', include('wildlife_sites.urls')),
 ]

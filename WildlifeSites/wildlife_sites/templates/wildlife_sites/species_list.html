@@ -5,6 +5,8 @@
     <title>Species list</title>
 </head>
 <body>
-<p>test</p>
+{% for animal in species %}
+    {{ animal.common_name_english }} {{ animal.common_name_catalan }} {{ animal.common_name_spanish }}<br>
+{% endfor %}
 </body>
 </html>

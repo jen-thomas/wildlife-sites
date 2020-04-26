@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e8f8cbd5-11ee-45a9-a633-3e45dee5e70e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WildlifeSites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WildlifeSites/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildlife_sites/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildlife_sites/templates/wildlife_sites/species_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/templates/wildlife_sites/species_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildlife_sites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wildlife_sites/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -91,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561228198189</updated>
-      <workItem from="1587885854382" duration="634000" />
+      <workItem from="1587885854382" duration="1941000" />
+      <workItem from="1587889977949" duration="297000" />
     </task>
     <servers />
   </component>
@@ -111,28 +116,52 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="739" y="270" width="428" height="509" key="FileChooserDialogImpl/0.0.1920.1054@0.0.1920.1054" timestamp="1584886235175" />
-    <state width="1895" height="280" key="GridCell.Tab.0.bottom" timestamp="1585086048432">
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom" timestamp="1587889961167">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1895" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
-    <state width="1895" height="280" key="GridCell.Tab.0.center" timestamp="1585086048432">
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961167" />
+    <state width="1878" height="347" key="GridCell.Tab.0.center" timestamp="1587889961166">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1895" height="280" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
-    <state width="1895" height="280" key="GridCell.Tab.0.left" timestamp="1585086048432">
+    <state width="1878" height="347" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961166" />
+    <state width="1878" height="347" key="GridCell.Tab.0.left" timestamp="1587889961166">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1895" height="280" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
-    <state width="1895" height="280" key="GridCell.Tab.0.right" timestamp="1585086048432">
+    <state width="1878" height="347" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961166" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right" timestamp="1587889961166">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state width="1895" height="280" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1585086048432" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961166" />
+    <state width="1878" height="347" key="GridCell.Tab.1.bottom" timestamp="1587889961167">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961167" />
+    <state width="1878" height="347" key="GridCell.Tab.1.center" timestamp="1587889961167">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.center/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961167" />
+    <state width="1878" height="347" key="GridCell.Tab.1.left" timestamp="1587889961167">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.left/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961167" />
+    <state width="1878" height="347" key="GridCell.Tab.1.right" timestamp="1587889961167">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.right/0.0.1920.1054@0.0.1920.1054" timestamp="1587889961167" />
+    <state x="449" y="162" key="SettingsEditor" timestamp="1587889957108">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="449" y="162" key="SettingsEditor/0.0.1920.1054@0.0.1920.1054" timestamp="1587889957108" />
     <state x="626" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1585162226464">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="626" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1585162226464" />
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1587887239142">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1054@0.0.1920.1054" timestamp="1587887239142" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WildlifeSites$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1587886636724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WildlifeSites$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1587890113875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
