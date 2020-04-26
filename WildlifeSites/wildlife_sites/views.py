@@ -7,3 +7,7 @@ class Index(TemplateView):
     def get(self, request, *args, **kwargs):
 
         return render(request, "index.html", {})
+
+
+def species_list(request):
+    return render(request, 'wildlife_sites/species_list.html', {})
