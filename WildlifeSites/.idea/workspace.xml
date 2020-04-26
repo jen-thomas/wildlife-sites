@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8f8cbd5-11ee-45a9-a633-3e45dee5e70e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WildlifeSites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WildlifeSites/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wildlife_sites/templates/wildlife_sites/species_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/templates/wildlife_sites/species_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wildlife_sites/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wildlife_sites/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561228198189</updated>
       <workItem from="1587885854382" duration="1941000" />
-      <workItem from="1587889977949" duration="297000" />
+      <workItem from="1587889977949" duration="1085000" />
     </task>
     <servers />
   </component>
