@@ -21,7 +21,7 @@
 <body>
 <main role="main" class="container">
     <p></p>
-    <table id="species" class="table table-striped">
+    <table id="species" class="table table-striped table-hover">
         <thead>
         <tr>
             <th>Latin</th>
@@ -45,7 +45,8 @@
         $(document).ready(function () {
             $('#species').DataTable({
                 "pageLength": 50,
-                "order": [[1, "asc"]]
+                "order": [[1, "asc"]],
+                "searchHighlight": true
             });
         });
     </script>
